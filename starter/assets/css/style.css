@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-body {
+*body {
     background-color: #d9dcd6;
 }
 
@@ -20,16 +20,18 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+.header a {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    float: top;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .header div ul {
@@ -39,11 +41,6 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
 }
 
 p {
